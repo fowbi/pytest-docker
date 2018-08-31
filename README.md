@@ -7,7 +7,7 @@ Separate container that will trigger pytest on the codebase
 Run tests:
 
 ```
-	docker run -it --init --rm -v $(PWD):/code tobinho/pytest
+docker run -it --init --rm -v $(PWD):/code tobinho/pytest
 ```
 
 ### Makefile
